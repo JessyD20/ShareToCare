@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Share to Care 🌱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login Box -->
+  <div class="login-box" id="loginBox">
+    <h1>🌱 Share to Care</h1>
+    <p class="tagline">Login to spread smiles 😊</p>
+
+    <input type="email" id="email" placeholder="📧 Email">
+    <input type="password" id="password" placeholder="🔑 Password">
+
+    <button onclick="login()">Login 🚀</button>
+  </div>
+
+  <!-- Donate Box -->
+  <div class="donate-box" id="donateBox" style="display:none;">
+    <h1>📦 Donate Items</h1>
+    <p class="tagline">Your kindness makes a big difference 💖</p>
+
+    <input type="text" id="item" placeholder="🍱 Item name (Food / Clothes)">
+    <input type="number" id="quantity" placeholder="🔢 Number of items">
+
+    <button onclick="donate()">Donate ❤️</button>
+    <p id="result"></p>
+  </div>
+
+  <!-- Dashboard Box -->
+  <div class="dashboard-box" id="dashboardBox" style="display:none;">
+    <h1>📊 Dashboard</h1>
+    <p class="tagline">Your impact so far 🌟</p>
+    <p>Total Donations: <span id="totalDonations">0</span></p>
+    <button onclick="logout()">Logout 🔒</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | Share to Care 🌱</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <h1>🌱 Share to Care</h1>
+      <p class="tagline">Together, we can make a difference 💖</p>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <h2>📦</h2>
+        <p class="number" id="donations">120</p>
+        <p>Total Donations</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>🏫</h2>
+        <p class="number">15</p>
+        <p>NGOs Connected</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>😊</h2>
+        <p class="number">500+</p>
+        <p>Lives Impacted</p>
+      </div>
+    </section>
+
+    <!-- Actions Section -->
+    <section class="action-grid">
+
+      <div class="action-card">
+        <h3>📦 Donate Items</h3>
+        <p>Share surplus food, clothes & essentials</p>
+        <button onclick="goDonate()">Donate Now</button>
+      </div>
+
+      <div class="action-card">
+        <h3>🏫 View NGOs</h3>
+        <p>Explore nearby orphanages & NGOs</p>
+        <button onclick="viewNGO()">View NGOs</button>
+      </div>
+
+      <div class="action-card">
+        <h3>📊 My Impact</h3>
+        <p>Track your contribution and impact</p>
+        <button onclick="viewImpact()">View Impact</button>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ to reduce waste and spread kindness</p>
+      <p>© 2026 Share to Care</p>
+    </footer>
+
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
